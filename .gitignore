@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+.figma-captures
+tsconfig.tsbuildinfo
+*.local
