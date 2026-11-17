@@ -31,6 +31,8 @@ function figmaCaptures(): Plugin {
 }
 
 export default defineConfig({
+  // Относительные пути: сборка работает и в корне, и на GitHub Pages (/<репозиторий>/), маршруты — на хэше
+  base: './',
   plugins: [react(), figmaCaptures()],
   server: { port: 5173 },
 });

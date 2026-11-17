@@ -9,7 +9,7 @@ import { teremokMenu } from './menus/teremok';
 import { rosticsMenu } from './menus/rostics';
 import { dodoMenu } from './menus/dodo';
 
-const F = '/figma/';
+const F = `${import.meta.env.BASE_URL}figma/`;
 // Скругления панелей: верхние — снизу, левые — справа, правые — слева (как в макете Figma, узел 3:2)
 const TOP = '0 0 30px 30px';
 const LEFT = '0 30px 30px 0';

@@ -89,7 +89,7 @@ export function FloorMap({
         })}
 
         <div className="floor-tree" style={{ left: tree.x, top: tree.y, width: tree.w, height: tree.h }} aria-hidden="true">
-          <img src="/figma/you-are-here.svg" alt="" width={tree.w} height={tree.h} />
+          <img src={`${import.meta.env.BASE_URL}figma/you-are-here.svg`} alt="" width={tree.w} height={tree.h} />
           <span className="floor-tree-icon">
             <Icon name="tree" size={72} stroke={2} />
           </span>
